@@ -155,7 +155,7 @@ Complete Exercise 11 in the space below:
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 const odds = [];
 for (let i = 0; i < nums.length; i++) {
-    if (nums[i] % 2 === 1) {
+    if (nums[i] % 2 !== 0) {
         odds.push(nums[i]);
     }
 }
